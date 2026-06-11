@@ -1,0 +1,38 @@
+/* home-btn-base.css */
+
+/* 匯入字型 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC&display=swap');
+@import url('./fonts.css');
+
+/* 回首頁按鈕 */
+.home-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 16px;
+    font-family: 'Noto Serif TC', '源起明體 月', 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    background-color: transparent;
+    display: inline-block;
+    cursor: url('../images/Moi-Cursor-3.png'), auto;
+    z-index: 1000;
+    opacity: 1;
+    transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+}
+    
+.home-btn:hover {
+    opacity: 1;
+    transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+}
+
+.home-btn a:hover {
+    cursor: url('../images/Moi-Cursor-3.png'), auto;
+    background-color: transparent;
+}

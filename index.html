@@ -50,22 +50,176 @@
   🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕
   🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕
   </script>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/player-btn.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/footer-base.css">
+  <style>
+    /* 匯入字型 */
+    @import url('./css/fonts.css');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Crimson+Pro:wght@600&family=Dancing+Script:wght@500&family=Homemade+Apple&family=Itim&family=Satisfy&family=Shadows+Into+Light+Two&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC&display=swap');
+
+    body {
+      color: #333;
+      background-color: #fff8e7;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .separator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 40px 0;
+      font-size: clamp(6px, 5vw, 18px);
+    }
+
+    .separator::before,
+    .separator::after {
+      content: "‡†‡†‡†‡†‡†";
+      flex: 0;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .separator span {
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+    }
+
+    a {
+      color: #d9ac9a;
+    }
+
+    a:hover {
+      color: #FFF;
+      background-color: #783535;
+    }
+
+    h1 {
+      font-family: 'Homemade Apple', cursive;
+      font-weight: 400;
+      color: #783535;
+      text-shadow: 0 0 0.2em #d9ac9a, 0 0 0.2em #d9ac9a, 0 0 0.2em #d9ac9a;
+    }
+
+    .font-hand-TW1 {
+      font-family: '花染字', cursive;
+      font-size: 20px;
+    }
+    
+    .font-hand-TW2 {
+      font-family: '隨峰體', cursive;
+      font-size: 24px;
+    }
+    
+    .font-hand-EN {
+      font-family: 'Combo', system-ui;
+      font-weight: 400;
+      font-size: 24px;
+    }
+
+    .font-sans {
+      font-family: '芫荽', cursive;
+      font-weight: 400;
+      text-align: left;
+      margin-left: 30%;
+      text-indent: -4em;
+    }
+
+    .font-sans-2 {
+      font-family: '芫荽', cursive;
+      font-weight: 400;
+    }
+
+    .font-sans-3 {
+      font-family: 'Unifont', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
+      font-size: 14px;
+    }
+
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .menu-item {
+      width: 100px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      box-sizing: border-box;
+    }
+
+    .menu-link {
+      text-decoration: none;
+      color: #d9ac9a;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      box-sizing: border-box;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 6px 0;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .dropdown-content a:hover {
+      color: #FFF;
+      background-color: #000;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .home-btn {
+      color: #783535;
+    }
+
+    .home-btn a:hover {
+      color: #000;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-      <h1>Moi's Literary Ocean</h1>
+  <h1>Moi's Literary Ocean</h1>
 </header>
 
 <main>
-      <a href="https://moichuu.github.io/literary-ocean/" rel="noopener" target="_blank" title="ꕀꕀ溺於夢中的文海ꕀꕀ">ꕀꕀ溺於夢中的文海ꕀꕀ</a>
-      <a rel="me" href="https://www.threads.net/@_moi.chu_" style="display:none;"></a>
-      <a rel="me" href="https://www.threads.net/@moi_energy.2017" style="display:none;"></a>
+  <a href="https://moichuu.github.io/literary-ocean/" rel="noopener" target="_blank" title="ꕀꕀ溺於夢中的文海ꕀꕀ">ꕀꕀ溺於夢中的文海ꕀꕀ</a>
+  <a rel="me" href="https://www.threads.net/@_moi.chu_" style="display:none;"></a>
+  <a rel="me" href="https://www.threads.net/@moi_energy.2017" style="display:none;"></a>
 </main>
 
-    <footer>
-      Copyright 2026 © <a href="https://moichuu.github.io/" rel="noopener" target="_blank" title="ꕀꕀ溺於夢中的文海ꕀꕀ">ꕀꕀ溺於夢中的文海ꕀꕀ</a><sup><span style='font-size:70%;'>TM</span></sup>. All Rights Reserved. Made with by <a href="mailto:moiaurachu@gmail.com" rel="noopener" target="_blank" title="寄信給我">默黓Moi</a> ♥<br><a href="https://moichuu.github.io/literary-ocean/copyright.html" rel="noopener" target="_blank" title="版權宣告">版權宣告</a>｜<a href="https://moichuu.github.io/literary-ocean/disclaimer.html" rel="noopener" target="_blank" title="免責聲明">免責聲明</a>
-    </footer>
+  <footer>
+    Copyright 2026 © <a href="https://moichuu.github.io/" rel="noopener" target="_blank" title="ꕀꕀ溺於夢中的文海ꕀꕀ">ꕀꕀ溺於夢中的文海ꕀꕀ</a><sup><span style='font-size:70%;'>TM</span></sup>. All Rights Reserved. Made with by <a href="mailto:moiaurachu@gmail.com" rel="noopener" target="_blank" title="寄信給我">默黓Moi</a> ♥<br><a href="https://moichuu.github.io/literary-ocean/copyright.html" rel="noopener" target="_blank" title="版權宣告">版權宣告</a>｜<a href="https://moichuu.github.io/literary-ocean/disclaimer.html" rel="noopener" target="_blank" title="免責聲明">免責聲明</a>
+  </footer>
 
 </body>
 </html>

@@ -1,0 +1,48 @@
+/* footer-base.css */
+
+/* 匯入字型 */
+@import url('./fonts.css');
+
+/* 定義頁尾 */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    font-size: 9pt;
+    font-family: '精品點陣體7x7', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
+    color: #783535;
+    background-color: rgba(120, 53, 53, 0.5);
+    padding: 10px;
+}
+
+/* 手機版縮小字體 */
+@media (max-width: 768px) {
+  footer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 13px;
+  }
+}
+
+footer a{
+    color: #d9ac9a;
+}
+
+footer a:hover {
+    color: #FFF;
+    cursor: url('../images/Moi-Cursor-3.png'), auto;
+    background-color: transparent;
+    transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+}

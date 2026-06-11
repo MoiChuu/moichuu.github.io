@@ -1,0 +1,63 @@
+/* contact.css */
+
+/* 匯入字型 */
+@import url('./fonts.css');
+
+/* 定義表單樣式 */
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fffbf0;
+  border: 1px solid rgba(197, 160, 89, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(139, 115, 85, 0.08);
+  color: #4a3c31;
+}
+
+.tarot-form label {
+  display: block;
+  color: #b85a38;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.tarot-form input, 
+.tarot-form textarea {
+  width: 100%;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  border-radius: 8px;
+  color: #4a3c31;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+#message {
+  resize: vertical;
+  min-height: 120px;
+  max-height: 300px;
+}
+
+.tarot-form input:focus, 
+.tarot-form textarea:focus {
+  outline: none;
+  border-color: #b85a38;
+  box-shadow: 0 0 10px rgba(184, 90, 56, 0.2);
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #c5a059, #b85a38);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 12px rgba(184, 90, 56, 0.2);
+}
+.submit-btn:hover { transform: scale(1.02); }

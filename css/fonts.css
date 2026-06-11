@@ -1,0 +1,196 @@
+/* fonts.css */
+
+/* 定義字體 */
+/* 主頁專用 */
+@font-face {
+    font-family: '芫荽';
+    src:
+        url('../fonts/Iansui-Regular.woff2') format('woff2'),
+        url('../fonts/Iansui-Regular.woff')  format('woff'),
+        url('../fonts/Iansui-Regular.ttf')   format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed TW';
+    src:
+        url('../fonts/LINESeedTW_OTF_Rg.woff2') format('woff2'),
+        url('../fonts/LINESeedTW_OTF_Rg.woff')  format('woff'),
+        url('../fonts/LINESeedTW_OTF_Rg.ttf')   format('truetype'),
+        url('../fonts/LINESeedTW_OTF_Rg.otf')   format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed TW';
+    src:
+        url('../fonts/LINESeedTW_OTF_Bd.woff2') format('woff2'),
+        url('../fonts/LINESeedTW_OTF_Bd.woff')  format('woff'),
+        url('../fonts/LINESeedTW_OTF_Bd.ttf')   format('truetype'),
+        url('../fonts/LINESeedTW_OTF_Bd.otf')   format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed TW';
+    src:
+        url('../fonts/LINESeedTW_OTF_Eb.woff2') format('woff2'),
+        url('../fonts/LINESeedTW_OTF_Eb.woff')  format('woff'),
+        url('../fonts/LINESeedTW_OTF_Eb.ttf')   format('truetype'),
+        url('../fonts/LINESeedTW_OTF_Eb.otf')   format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* 聲明專用 */
+@font-face {
+    font-family: 'LINE Seed EN';
+    src:
+        url('../fonts/LINESeedSans_W_Rg.woff2') format('woff2'),
+        url('../fonts/LINESeedSans_W_Rg.woff')  format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed EN';
+    src:
+        url('../fonts/LINESeedSans_W_Bd.woff2') format('woff2'),
+        url('../fonts/LINESeedSans_W_Bd.woff')  format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    src:
+        url('../fonts/LINESeedJP_OTF_Rg.woff2') format('woff2'),
+        url('../fonts/LINESeedJP_OTF_Rg.woff')  format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed JP';
+    src:
+        url('../fonts/LINESeedJP_OTF_Bd.woff2') format('woff2'),
+        url('../fonts/LINESeedJP_OTF_Bd.woff')  format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed KR';
+    src:
+        url('../fonts/LINESeedKR-Rg.woff2') format('woff2'),
+        url('../fonts/LINESeedKR-Rg.woff')  format('woff'),
+        url('../fonts/LINESeedKR-Rg.ttf')   format('truetype'),
+        url('../fonts/LINESeedKR-Rg.otf')   format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINE Seed KR';
+    src:
+        url('../fonts/LINESeedKR-Bd.woff2') format('woff2'),
+        url('../fonts/LINESeedKR-Bd.woff')  format('woff'),
+        url('../fonts/LINESeedKR-Bd.ttf')   format('truetype'),
+        url('../fonts/LINESeedKR-Bd.otf')   format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 頁尾專用 */
+@font-face {
+    font-family: 'Unifont';
+    src:
+        url('../fonts/Unifont-JP.woff')  format('woff'),
+        url('../fonts/unifont_jp-17.0.03.otf')   format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '精品點陣體7x7';
+    src:
+        url('../fonts/BoutiqueBitmap7x7_17.woff2') format('woff2'),
+        url('../fonts/BoutiqueBitmap7x7_17.woff')  format('woff'),
+        url('../fonts/BoutiqueBitmap7x7_1.7.ttf')   format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 小說專用 */
+@font-face {
+    font-family: '源起明體 月';
+    src: url('../fonts/GenKiMin2TW-R.otf')   format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '源起明體 月';
+    src: url('../fonts/GenKiMin2TW-M.otf')   format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '源起明體 月';
+    src: url('../fonts/GenKiMin2TW-B.otf')   format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 中日特殊字體 */
+@font-face {
+    font-family: '隨峰體'; /* 中文手寫 */
+    src:
+        url('../fonts/ThePeakFontBeta.woff2')      format('woff2'),
+        url('../fonts/ThePeakFontBeta.woff')       format('woff'),
+        url('../fonts/ThePeakFontBeta_V0_102.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '何某手寫體'; /* 中文手寫 */
+    src:
+        url('../fonts/NaniFont-Regular.woff2') format('woff2'),
+        url('../fonts/NaniFont-Regular.woff')  format('woff'),
+        url('../fonts/NaniFont-Regular.ttf')   format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'K字'; /* 日文手寫 */
+    src:
+        url('../fonts/Kei_Ji.woff2') format('woff2'),
+        url('../fonts/Kei_Ji.woff')  format('woff'),
+        url('../fonts/Kei_Ji.ttf')   format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '花染字'; /* 日文手寫 */
+    src:
+        url('../fonts/HanazomeFont.woff2') format('woff2'),
+        url('../fonts/HanazomeFont.woff')  format('woff'),
+        url('../fonts/はなぞめフォント.ttf')   format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '851手寫字體'; /* 日文手寫 */
+    src:
+        url('../fonts/851tegaki_zatsu_normal_0883.ttf')   format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,107 @@
+/* menu.css */
+
+/* 匯入字型 */
+@import url('./fonts.css');
+
+/* 定義目錄 */
+.float-menu {
+  position: fixed;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 9999;
+}
+
+.menu-item {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  transition: width 0.3s;
+}
+
+.menu-item a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-item .sub-label {
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  white-space: nowrap;
+  font-family: 'Unifont', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
+  font-size: 12pt;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 6px 12px;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateX(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+.menu-item:hover {
+  width: auto;
+  cursor: url('../images/Moi-Cursor-3.png'), auto;
+}
+
+.menu-item:hover .sub-label {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.menu-item a.menu-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-item a.menu-icon:hover {
+  cursor: url('../images/Moi-Cursor-3.png'), auto;
+  background-color: transparent;
+}
+
+.menu-item a.author-icon {
+  background-image: url('../images/Moi-icon.png');
+}
+
+.menu-item a.ao3-icon {
+  background-image: url('../images/Moi-icon.png');
+}
+
+.menu-item a.vocus-icon {
+  background-image: url('../images/Moi-icon.png');
+}
+
+.menu-item a.cxc-icon {
+  background-image: url('../images/Moi-icon.png');
+}
+
+.menu-item a.link-icon {
+  background-image: url('../images/Moi-icon.png');
+}
+
+.menu-item a.msg-icon {
+  background-image: url('../images/Moi-icon.png');
+}
+
+.menu-item a.contact-icon {
+  background-image: url('../images/Moi-icon.png');
+}
