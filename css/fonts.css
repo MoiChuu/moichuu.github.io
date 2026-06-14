@@ -194,3 +194,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'HonyaJi-Re'; /* 日文手寫 */
+    src:
+        url('../fonts/HonyaJi-Re.woff2') format('woff2'),
+        url('../fonts/HonyaJi-Re.woff')  format('woff'),
+        url('../fonts/HonyaJi-Re.ttf')   format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
