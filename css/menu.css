@@ -24,8 +24,8 @@
 
 .menu-item a {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: transparent;
   border: none;
   border-radius: 10px;
@@ -67,41 +67,13 @@
 .menu-item a.menu-icon {
   width: 50px;
   height: 50px;
-  display: block;
-  border-radius: 8px;
-  background-size: cover;
+  background-image: url('../images/Moi-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
 .menu-item a.menu-icon:hover {
   cursor: url('../images/Moi-Cursor-3.png'), auto;
   background-color: transparent;
-}
-
-.menu-item a.author-icon {
-  background-image: url('../images/Moi-icon.png');
-}
-
-.menu-item a.ao3-icon {
-  background-image: url('../images/Moi-icon.png');
-}
-
-.menu-item a.vocus-icon {
-  background-image: url('../images/Moi-icon.png');
-}
-
-.menu-item a.cxc-icon {
-  background-image: url('../images/Moi-icon.png');
-}
-
-.menu-item a.link-icon {
-  background-image: url('../images/Moi-icon.png');
-}
-
-.menu-item a.msg-icon {
-  background-image: url('../images/Moi-icon.png');
-}
-
-.menu-item a.contact-icon {
-  background-image: url('../images/Moi-icon.png');
 }
