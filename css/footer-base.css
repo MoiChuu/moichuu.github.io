@@ -15,8 +15,6 @@ footer {
     text-align: center;
     font-size: 9pt;
     font-family: '精品點陣體7x7', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
-    color: #783535;
-    background-color: rgba(120, 53, 53, 0.5);
     padding: 10px;
 }
 
@@ -33,14 +31,8 @@ footer {
   }
 }
 
-footer a{
-    color: #d9ac9a;
-}
-
 footer a:hover {
-    color: #FFF;
     cursor: url('../images/Moi-Cursor-3.png'), auto;
-    background-color: transparent;
     transition-duration: 0.6s;
     -o-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;

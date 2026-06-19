@@ -2,8 +2,8 @@
 
 //後台彩蛋
 console.log(
-    "%c👨‍💻 洛奇：沒想到你也來看這個？", 
-    "color: #d4af37; background: #1a1a2e; font-size: 20px; padding: 10px 20px; border-radius: 5px; font-weight: bold; border: 1px solid #d4af37;"
+    "%c你也很好奇構造嗎 👀", 
+    "color: #783535; background: #f3e9d2; padding: 10px 18px; border-radius: 8px; font-size: 18px; font-weight: bold; border: 1px solid #d9ac9a;"
 );
 console.log("%c【默黓｜版權所有】來都來了，不如去留言板留下足跡吧！✨", "color: #b3b3cc; font-size: 13px;");
 
@@ -13,21 +13,21 @@ document.addEventListener('contextmenu', function(e) {
     
     // 建立小浮窗
     const toast = document.createElement('div');
-    toast.innerText = "我知道你想做什麼";
+    toast.innerText = "別急，慢慢看";
     
     // 浮窗樣式
     Object.assign(toast.style, {
         position: 'fixed',
         left: `${e.clientX + 10}px`,
         top: `${e.clientY + 10}px`,
-        background: 'rgba(12, 12, 14, 0.95)',
-        color: 'rgba(255, 0, 0, 0.95)',
+        background: 'rgba(255, 248, 231, .95)',
+        color: '#783535',
         padding: '10px 18px',
         borderRadius: '8px',
         fontSize: '14px',
         fontWeight: 'bold',
-        border: '1px solid #d4af37',
-        boxShadow: '0 0 15px rgba(212, 175, 55, 0.4)',
+        border: '1px solid #d9ac9a',
+        boxShadow: '0 0 12px rgba(120, 53, 53, .15)',
         zIndex: '99999',
         pointerEvents: 'none', // 確保不會干擾滑鼠點擊
         transition: 'opacity 0.6s ease, transform 0.6s ease',
@@ -60,10 +60,13 @@ document.addEventListener('copy', function(e) {
         const copyrightTail = 
 `
 
-ꕀꕀꕀꕀ溺於夢中的文海ꕀꕀꕀꕀ
+默黓的記憶櫥窗
+
+感謝你帶走這段文字……
+但我還是希望你能夠尊重原作。
+
 【默黓版權所有｜轉載請註明出處】
-作者網址：${window.location.href}
-注意：私自偷取文字的人，電腦資料會被洛奇給看光～光唷 (ﾟ∀ﾟ)！`;
+作者網站：${window.location.href}`;
 
         // 整合原本的文字與版權尾巴，強制塞進使用者的剪貼簿
         e.clipboardData.setData('text/plain', selectedText + copyrightTail);
