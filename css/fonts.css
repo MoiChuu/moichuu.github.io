@@ -158,31 +158,11 @@
 }
 
 @font-face {
-    font-family: '何某手寫體'; /* 中文手寫 */
-    src:
-        url('../fonts/NaniFont-Regular.woff2') format('woff2'),
-        url('../fonts/NaniFont-Regular.woff')  format('woff'),
-        url('../fonts/NaniFont-Regular.ttf')   format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'K字'; /* 日文手寫 */
     src:
         url('../fonts/Kei_Ji.woff2') format('woff2'),
         url('../fonts/Kei_Ji.woff')  format('woff'),
         url('../fonts/Kei_Ji.ttf')   format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: '花染字'; /* 日文手寫 */
-    src:
-        url('../fonts/HanazomeFont.woff2') format('woff2'),
-        url('../fonts/HanazomeFont.woff')  format('woff'),
-        url('../fonts/はなぞめフォント.ttf')   format('truetype');
     font-weight: normal;
     font-style: normal;
 }

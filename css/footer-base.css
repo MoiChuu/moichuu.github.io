@@ -33,6 +33,7 @@ footer {
 
 footer a:hover {
     cursor: url('../images/Moi-Cursor-3.png'), auto;
+    background-color: transparent;
     transition-duration: 0.6s;
     -o-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
