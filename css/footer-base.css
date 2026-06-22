@@ -27,6 +27,14 @@ footer {
   }
 }
 
+@media(max-width:768px){
+  footer {
+    height:auto;
+    min-height:70px;
+    padding:15px 10px;
+  }
+}
+
 @media (max-width: 480px) {
   footer {
     font-size: 13px;
