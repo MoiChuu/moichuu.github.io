@@ -5,33 +5,33 @@
 
 /* 定義頁尾 */
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 50px;
-    display: inline-block;
-    text-align: center;
-    font-size: 9pt;
-    font-family: '精品點陣體7x7', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
-    padding: 10px;
-    letter-spacing: 0.05em;
-    font-weight: 400;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  font-size: 9pt;
+  font-family: '精品點陣體7x7', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
+  padding: 10px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
 }
 
 /* 手機版專用 */
-@media (max-width: 768px) {
+@media(max-width:768px) {
   footer {
-    font-size: 14px;
+    height: auto;
+    min-height: 70px;
+    padding: 15px 10px;
   }
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
   footer {
-    height:auto;
-    min-height:70px;
-    padding:15px 10px;
+    font-size: 14px;
   }
 }
 
@@ -42,10 +42,10 @@ footer {
 }
 
 footer a:hover {
-    cursor: url('../images/Moi-Cursor-3.png'), auto;
-    background-color: transparent;
-    transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    -moz-transition-duration: 0.6s;
-    -webkit-transition-duration: 0.6s;
+  cursor: url('../images/Moi-Cursor-3.png'), auto;
+  background-color: transparent;
+  transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -webkit-transition-duration: 0.6s;
 }
