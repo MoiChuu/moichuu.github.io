@@ -17,9 +17,10 @@ footer {
     font-family: '精品點陣體7x7', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
     padding: 10px;
     letter-spacing: 0.05em;
+    font-weight: 400;
 }
 
-/* 手機版縮小字體 */
+/* 手機版專用 */
 @media (max-width: 768px) {
   footer {
     font-size: 14px;
