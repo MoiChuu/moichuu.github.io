@@ -162,6 +162,55 @@
       font-size: 14px;
     }
 
+    /* 複製框 */
+    .copy-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .copy-box {
+      width: 250px;
+    }
+
+    .copy-box {
+      width: 200px;
+    }
+
+    .copy-box textarea {
+      width: 24px;
+      height: 24px;
+      resize: none;
+      overflow: hidden;
+      border: none;
+      border-radius: 999px;
+      padding: 10px;
+      background: transparent;
+      color: #000;
+      font-size: 9pt;
+      font-family: "MS UI Gothic", sans-serif;
+      box-sizing: border-box;
+    }
+
+    .copy-box button {
+      margin-top: 8px;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      background: #783535;
+      color: #FFF;
+      cursor: url('../images/Moi-Cursor-3.png'), auto;
+      transition: .2s;
+    }
+
+    .copy-box button:hover {
+      background: #000;
+    }
+
+    .copy-success {
+      transform: scale(1.05);
+      transition: .2s;
+    }
+
     .home-btn {
       color: #783535;
     }
@@ -182,6 +231,17 @@
     <h2>Creative Writing</h2>
     <a href="https://moichuu.github.io/literary-ocean/" rel="noopener" target="_blank" title="文字&文學創作">ꕀꕀ溺於夢中的文海ꕀꕀ</a><a rel="me" href="https://www.threads.net/@moi_energy.2017" style="display:none;"></a>
     <p>　</p>
+    <p>　</p>
+    <div class="copy-wrapper">
+      <div class="copy-box">
+        <p>本站 LOGO</p>
+        <p>
+          <img src="images/Moi-LoGo.gif" alt="默黓的記憶櫥窗Logo" title="默黓的記憶櫥窗"><br>
+          <textarea id="copyText" readonly><a href="https://moichuu.github.io/" target="_blank"><img src="https://i.imgur.com/Eg5yuqB.gif" alt="默黓的記憶櫥窗" title="默黓的記憶櫥窗"></a></textarea><br>
+          <button id="copyBtn">複製</button>
+        </p>
+      </div>
+    </div>
     <p class="separator"></p>
     <p>　</p>
     <p class="font-sans"><a href="https://amachamusic.chagasi.com/" rel="noreferrer nofollow" target="_blank" title="甘茶の音楽工房">甘茶の音楽工房</a>作為該網站的音樂背景（可以隨時按喇叭暫停）<br><a rel="me" href="https://mastodon.social/@Akane_CHu" style="display:none;"></a><a rel="me" href="https://bsky.app/profile/akane-chu.bsky.social" style="display:none;"></a><a rel="me" href="https://x.com/Akane_CHu" style="display:none;"></a><a rel="me" href="https://www.plurk.com/Moi_CHu" style="display:none;"></a><a rel="me" href="https://www.twitch.tv/moi_chu" style="display:none;"></a><a rel="me" href="https://miin.cc/user/moi_chu" style="display:none;"></a><a rel="me" href="https://cxc.today/store/moi_chu" style="display:none;"></a><a rel="me" href="https://www.youtube.com/@Moi_CHu" style="display:none;"></a><a rel="me" href="https://portaly.cc/Moi_CHu" style="display:none;"></a><a rel="me" href="https://www.pixiv.net/users/3602650" style="display:none;"></a><a rel="me" href="https://vocus.cc/salon/moi_chu" style="display:none;"></a><a rel="me" href="https://archiveofourown.org/users/Moi_CHu" style="display:none;"></a>
@@ -220,6 +280,7 @@
   </footer>
 
   <script src="./js/main.js" defer></script>
+  <script src="./js/copy.js"></script>
   <script src="./js/player-btn.js"></script>
 
 </body>
