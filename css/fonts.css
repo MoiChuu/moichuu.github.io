@@ -108,6 +108,7 @@
 @font-face {
     font-family: 'Unifont';
     src:
+        url('../fonts/Unifont-JP.woff2') format('woff2'),
         url('../fonts/Unifont-JP.woff')  format('woff'),
         url('../fonts/unifont_jp-17.0.03.otf')   format('opentype');
     font-weight: normal;
