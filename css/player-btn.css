@@ -1,26 +1,58 @@
 /* player-btn.css */
 
+/* 匯入字型 */
+@import url('./fonts.css');
+
 /* 播放按鈕樣式 */
-.glass-btn {
+/* 浮動容器 */
+.floating-player {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 9999;
+}
+
+/* 音樂盒 */
+.music-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* 按鈕 */
+.play-btn {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 50px;
   height: 50px;
-  color: #000;
   border: none;
   background: transparent;
-  text-align: left;
-  font-size: 20pt;
-  padding: 30px;
-  border-radius: 50%;
   cursor: url('../images/Moi-Cursor-3.png'), auto;
+  color: #000;
+  font-size: 18px;
 }
 
-/* 浮動播放器位置 */
-.floating-player {
-  position: fixed;
-  right: 30px;
-  top: 20px;
-  z-index: 9999;
+/* 歌名 */
+.play-label {
+  position: absolute;
+  right: 60px;
+  top: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  font-family: 'Unifont', 'MS Gothic', '新細明體', 'Noto Sans Mono', monospace;
+  font-size: 12pt;
+  color: #333;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px 0;
+  border-radius: 10px;
+  transition: max-width 0.4s ease, padding 0.4s ease;
+}
+
+/* hover 顯示 */
+.music-box:hover .play-label {
+  max-width: 200px;
+  padding: 6px 12px;
+  cursor: url('../images/Moi-Cursor-3.png'), auto;
 }
