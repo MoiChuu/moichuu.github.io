@@ -185,3 +185,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: '花染字'; /* 日文手寫 */
+    src:
+        url('../fonts/HanazomeFont.woff2') format('woff2'),
+        url('../fonts/HanazomeFont.woff')  format('woff'),
+        url('../fonts/はなぞめフォント.ttf')   format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
